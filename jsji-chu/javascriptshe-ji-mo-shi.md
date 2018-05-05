@@ -21,3 +21,28 @@
 
 ```
 ######  现在想定义一个Dog类，想继承的Animal的属性和方法，并且定义一个run方法，每隔一秒能执行一次speak方法；（使用构造函数继承和原型继承
+
+```
+//构造函数式继承，继承构造函数Animal内部的属性和方法；
+	    function Dog (name,age) {
+	    	Animal.apply(this,[name, age]);
+	    	this.color = 'red';
+	    }
+	    //原型继承，继承Animal原型上的一些方法和属性；
+	    Dog.prototype = new Animal();
+        Dog.prototype.contructor = Dog;
+	    Dog.prototype.run = function () {
+	    	var that = this;
+	    	var num = 0;
+	    	var timer = setInterval(function () {
+                 that.speak();
+                 num++;
+                 if (num > 4) {
+                 	clearInterval(timer);
+                 };
+	    	}, 30)
+	    }
+	    var xiaobai = new Dog('xiaobai', 11);
+	    xiaobai.say();
+	    console.log(xiaobai)
+```
