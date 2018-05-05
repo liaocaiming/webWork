@@ -1,5 +1,5 @@
 一. 列表数据的渲染
-```
+
 const shopArr = [
   {shopName: '大保健', amount: 110},
   {shopName: '大保健', amount: 110},
@@ -29,4 +29,3 @@ shopTitle.map((value) => {
      }
 </Row>
 })
-```
