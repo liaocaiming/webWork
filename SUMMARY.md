@@ -6,4 +6,7 @@
 * [js基础](jsji-chu.md)
   * [javascript相关程序计算题](jsji-chu/jssuan-fa.md)
   * [微信小程序点击按钮倒计时](jsji-chu/wei-xin-xiao-cheng-xu-dian-ji-an-niu-dao-ji-shi.md)
+  * [正则大总结](jsji-chu/zheng-ze-da-zong-jie.md)
+  * [面试题](jsji-chu/mian-shi-ti.md)
+  * [js原型链详解](jsji-chu/jsyuan-xing-lian-xiang-jie.md)
 
