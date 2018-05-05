@@ -337,6 +337,30 @@ export let div = (arg1, arg2) => {
 }
 ```
 
+####     8、多维数组转一位数组：原题：[1,[2,3]] => [1,2,3]；
+```
+var arr = [1,[2,3]];
+        function fun(arr){
+        	if (Object.prototype.toString.call(arr) != '[object Array]') {
+        		console.log(111)
+        		return;
+        	};
+        	var newArr = [];
+        	function fn(arr){
+        		for (var i = 0; i < arr.length; i++) {
+        			if (arr[i].length) {
+        				//递归调用
+        				fn(arr[i])
+        			}else {
+                        newArr.push(arr[i])
+        			}
+        		};
+        	}
+        	fn(arr);
+        	return newArr;
+        }
+        arr = fun(arr)
+```
 
 
 
