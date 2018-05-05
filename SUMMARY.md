@@ -11,6 +11,7 @@
   * [js原型链详解](jsji-chu/jsyuan-xing-lian-xiang-jie.md)
   * [列表渲染](jsji-chu/lie-biao-xuan-ran.md)
   * [js回到顶部的方法](jsji-chu/jshui-dao-ding-bu-de-fang-fa.md)
+  * [JavaScript设计模式](jsji-chu/javascriptshe-ji-mo-shi.md)
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
 * [ts](ts.md)
