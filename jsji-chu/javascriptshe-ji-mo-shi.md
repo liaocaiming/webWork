@@ -49,3 +49,46 @@
 
  ##### 注意：用构造函数继承时会出现一些问题：如父类的构造函数内部的属性和方法会执行两次
  
+ ```
+       function Aanimal (name, age) {
+        	this.name = name;
+        	this.age =age;
+        }
+        Aanimal.prototype.speak = function () {
+        	console.log('hello');
+        }
+        //构造函数式继承；
+        function Dog (name, age) {
+        	Aanimal.call(this, name, age)
+        };
+        //原型式继承；
+        function object (o) {
+        	function F () {};
+        	F.prototype = o;
+        	return new F();
+        }
+        //
+        function inheritPrototype (subType, superType) {
+             // var prototype = object(superType.prototype);
+             var prototype = Object.create(superType.prototype);//Object.create是基于原型式继承实现的；
+             prototype.constructor = subType;
+             subType.prototype = prototype;
+        }
+       inheritPrototype (Dog, Aanimal);
+       Dog.prototype.run = function () {
+	    	var that = this;
+	    	var num = 0;
+	    	var timer = setInterval(function () {
+                 that.speak();
+                 num++;
+                 if (num > 4) {
+                 	clearInterval(timer);
+                 };
+	    	}, 30)
+	    }
+     var xiaobai = new Dog('xiaobai', 222);
+     xiaobai.run();
+     console.log(xiaobai)
+     console.log(xiaobai.__proto__.__proto__ === Aanimal.prototype)
+ ```
+ 
