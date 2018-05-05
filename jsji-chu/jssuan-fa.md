@@ -339,7 +339,7 @@ export let div = (arg1, arg2) => {
 
 ####     8、多维数组转一位数组：原题：[1,[2,3]] => [1,2,3]；
 ```
-var arr = [1,[2,3]];
+        var arr = [1,[2,3]];
         function fun(arr){
         	if (Object.prototype.toString.call(arr) != '[object Array]') {
         		console.log(111)
