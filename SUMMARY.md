@@ -10,4 +10,5 @@
   * [面试题](jsji-chu/mian-shi-ti.md)
   * [js原型链详解](jsji-chu/jsyuan-xing-lian-xiang-jie.md)
   * [列表渲染](jsji-chu/lie-biao-xuan-ran.md)
+  * [js回到顶部的方法](jsji-chu/jshui-dao-ding-bu-de-fang-fa.md)
 
