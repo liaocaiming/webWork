@@ -22,3 +22,16 @@ var xiaohong = new People();
 console.log(xiaoming.fun == xiaohong.fun)//false
  ```
  #### 四. 一般方法都定义在prototye上,此时同一个构造函数new 出来的两个实例调用自身(prototype上)的方法时时同一个函数
+ 
+ ```
+function People(){
+	        
+}
+People.prototype.fun = function(){
+  console.log(11111)
+}
+
+var xiaoming = new People();
+var xiaohong = new People();
+console.log(xiaoming.fun == xiaohong.fun)//true
+ ```
