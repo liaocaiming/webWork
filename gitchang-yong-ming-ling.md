@@ -16,5 +16,5 @@ git remte -v // 查看仓库源
 git tag -a [tag名称]  -m '解释说明';
 
 git tag 查看本地tag;
-git push upstream // 本地tag推送到远程;
+git push upstream --tags // 本地tag推送到远程;
 ```
