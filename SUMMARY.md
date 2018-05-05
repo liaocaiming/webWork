@@ -9,4 +9,5 @@
   * [正则大总结](jsji-chu/zheng-ze-da-zong-jie.md)
   * [面试题](jsji-chu/mian-shi-ti.md)
   * [js原型链详解](jsji-chu/jsyuan-xing-lian-xiang-jie.md)
+  * [列表渲染](jsji-chu/lie-biao-xuan-ran.md)
 
