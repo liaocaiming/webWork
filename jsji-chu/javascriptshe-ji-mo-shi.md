@@ -48,6 +48,7 @@
 ```
 
  ##### 注意：用构造函数继承时会出现一些问题：如父类的构造函数内部的属性和方法会执行两次
+ Animal.apply(this,[name, age])和Dog.prototype = new Animal();解决方法用寄生组合继承
  
  ```
        function Aanimal (name, age) {
