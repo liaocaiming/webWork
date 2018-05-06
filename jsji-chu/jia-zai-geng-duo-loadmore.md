@@ -11,8 +11,8 @@ function loadMore (elem, callBack) {
 #### 使用
 ```
 loadMore (paraId, () => {
-  int++
-  isRequest = false
+  int++ // 加载的page
+  isRequest = false // ajax是否请求回来
   if (int > totalPage) {
     $toast.show({
       type: 'text',
