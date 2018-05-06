@@ -13,6 +13,7 @@
   * [js回到顶部的方法](jsji-chu/jshui-dao-ding-bu-de-fang-fa.md)
   * [设计模式-继承](jsji-chu/javascriptshe-ji-mo-shi.md)
   * [数字动态增加](jsji-chu/shu-zi-dong-tai-zeng-jia.md)
+  * [原生js](jsji-chu/yuan-sheng-js.md)
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
 * [ts](ts.md)
