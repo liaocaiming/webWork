@@ -16,6 +16,7 @@
   * [原生js](jsji-chu/yuan-sheng-js.md)
   * [加载更多loadMore](jsji-chu/jia-zai-geng-duo-loadmore.md)
   * [设置title](jsji-chu/she-zhi-title.md)
+  * [设置rem](jsji-chu/she-zhi-rem.md)
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
   * [express搭建服务](node/expressda-jian-fu-wu.md)
