@@ -12,9 +12,9 @@ function loadMore (elem, callBack) {
 ```
 loadMore (paraId, () => {
   int++
-  this.isRequest = false
-  if (this.int > this.page.totalPage) {
-    this.$vux.toast.show({
+  isRequest = false
+  if (int > totalPage) {
+    $toast.show({
       type: 'text',
       text: '没有更多了',
       time: 500
