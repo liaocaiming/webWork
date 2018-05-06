@@ -10,8 +10,8 @@ function loadMore (elem, callBack) {
 ```
 #### 使用
 ```
-this.loadMoreData(paraId, () => {
-  this.int++
+loadMore (paraId, () => {
+  int++
   this.isRequest = false
   if (this.int > this.page.totalPage) {
     this.$vux.toast.show({
@@ -21,6 +21,6 @@ this.loadMoreData(paraId, () => {
     })
     return
   }
-  this.getData()
+  getData(int)
 })
 ```
