@@ -14,6 +14,7 @@
   * [设计模式-继承](jsji-chu/javascriptshe-ji-mo-shi.md)
   * [数字动态增加](jsji-chu/shu-zi-dong-tai-zeng-jia.md)
   * [原生js](jsji-chu/yuan-sheng-js.md)
+  * [加载更多loadMore](jsji-chu/jia-zai-geng-duo-loadmore.md)
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
   * [express搭建服务](node/expressda-jian-fu-wu.md)
