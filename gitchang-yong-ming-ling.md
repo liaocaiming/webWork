@@ -13,8 +13,11 @@ git push -u origin master // 本地代码推送带远程仓库
 
 git remte -v // 查看仓库源
 
+// 生成标签
 git tag -a [tag名称]  -m '解释说明';
-
 git tag 查看本地tag;
 git push upstream --tags // 本地tag推送到远程;
+
+
+
 ```
