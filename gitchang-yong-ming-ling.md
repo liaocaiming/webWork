@@ -11,6 +11,7 @@ git checktout -b [本地分支]  upstream/[远程分支];
 git remote add origin  url(远程仓库路径);
 git push -u origin master // 本地代码推送带远程仓库
 
+// 仓库
 git remte -v // 查看仓库源
 
 // 生成标签
