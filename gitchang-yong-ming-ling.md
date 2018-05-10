@@ -19,6 +19,9 @@ git tag -a [tag名称]  -m '解释说明';
 git tag 查看本地tag;
 git push upstream --tags // 本地tag推送到远程;
 
+// 暂存
 
+git stash // 暂存;
+git stash pop // 取出最新的暂存点;
 
 ```
