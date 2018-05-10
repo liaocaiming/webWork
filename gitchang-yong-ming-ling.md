@@ -23,5 +23,5 @@ git push upstream --tags // 本地tag推送到远程;
 
 git stash // 暂存;
 git stash pop // 取出最新的暂存点;
-
+git stash list // 查看暂存的点
 ```
