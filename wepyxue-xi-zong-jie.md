@@ -2,3 +2,8 @@
 ```
 let global = wepy.$instence.global
 ```
+
+#### 2. 页面中获取全局app;
+```
+ let app = this.$parent
+```
