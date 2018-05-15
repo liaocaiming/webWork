@@ -26,4 +26,5 @@
   * [弹性布局](css3/dan-xing-bu-ju.md)
   * [动画翻转](css3/dong-hua-fan-zhuan.md)
 * [cmd 常用命令](cmd-chang-yong-ming-ling.md)
+* [wepy学习总结](wepyxue-xi-zong-jie.md)
 
