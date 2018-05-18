@@ -2,6 +2,7 @@
 
 * [介绍](README.md)
 * [charles的使用](charlesde-shi-yong.md)
+  * [charles的Registered](charlesde-shi-yong/charlesde-registered.md)
 * [git常用命令](gitchang-yong-ming-ling.md)
 * [js基础](jsji-chu.md)
   * [javascript相关程序计算题](jsji-chu/jssuan-fa.md)
