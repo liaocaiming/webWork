@@ -12,7 +12,7 @@ npm install -g weinre
 **
 安装完成后在termial中运行以下命令
 ```
-weinre --httpPort=8081 --boundHost=liaocaiming.site //你自己Debug Server的域名， 也可以使用ip地址)
+weinre --httpPort=8081 --boundHost=www.liaocaiming.site //你自己Debug Server的域名， 也可以使用ip地址)
 ```
 
 打开浏览器， 输入 http://www.liaocaiming.site:8081
