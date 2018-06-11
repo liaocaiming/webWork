@@ -29,4 +29,5 @@
   * [动画翻转](css3/dong-hua-fan-zhuan.md)
 * [cmd 常用命令](cmd-chang-yong-ming-ling.md)
 * [wepy学习总结](wepyxue-xi-zong-jie.md)
+* [weinre的使用](weinrede-shi-yong.md)
 
