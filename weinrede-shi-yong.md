@@ -8,4 +8,10 @@ weinre 是一款类似于firebug 和Web Inspector的网页调试工具， 它的
 ```
 npm install -g weinre
 ```
+**如何运行?
+**
+安装完成后在termial中运行以下命令
+```
+weinre --httpPort=8081 --boundHost=znchen.waijule.cn //你自己Debug Server的域名， 也可以使用ip地址)
+```
 
