@@ -23,4 +23,8 @@ weinre --httpPort=8081 --boundHost=www.liaocaiming.site //你自己Debug Server�
 <script src="http://znchen.waijule.cn:8081/target/target-script-min.js#anonymous" />
 ```
 
+打开debug client 界面
+```
+http://www.liaocaiming.site:8081/client/#anonymous
+```
 
