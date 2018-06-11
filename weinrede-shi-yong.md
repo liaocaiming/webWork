@@ -16,4 +16,11 @@ weinre --httpPort=8081 --boundHost=www.liaocaiming.site //你自己Debug Server�
 ```
 
 打开浏览器， 输入 http://www.liaocaiming.site:8081
+![](/assets/weinre.png)
+
+在需要调试的网页中加入Target Script
+```
+<script src="http://znchen.waijule.cn:8081/target/target-script-min.js#anonymous" />
+```
+
 
