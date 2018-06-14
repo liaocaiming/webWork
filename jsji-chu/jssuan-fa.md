@@ -362,5 +362,14 @@ export let div = (arg1, arg2) => {
         arr = fun(arr)
 ```
 
+#### 9. toFixed的坑
+```
+ 0.005.toFixed(2) // "0.01"
+ 1.005.toFixed(2) // "1.00"
+```
+
+
+
+
 
 
