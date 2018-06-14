@@ -369,7 +369,7 @@ export let div = (arg1, arg2) => {
 ```
   解决方法
 ```
- let round = (value, number) => {
+  let round = (value, number) => {
   let num = number === undefined ? 2: parseInt(number);
   let n = Math.round(mul(parseFloat(value), Math.pow(10, num)));
   let val = div(n, Math.pow(10, num));
