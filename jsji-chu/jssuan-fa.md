@@ -367,6 +367,15 @@ export let div = (arg1, arg2) => {
  0.005.toFixed(2) // "0.01"
  1.005.toFixed(2) // "1.00"
 ```
+  解决方法
+```
+ let round = (value, number) => {
+  let num = number === undefined ? 2: parseInt(number);
+  let n = Math.round(mul(parseFloat(value), Math.pow(10, num)));
+  let val = div(n, Math.pow(10, num));
+  return val;
+}
+```
 
 
 
