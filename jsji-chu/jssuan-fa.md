@@ -377,6 +377,17 @@ export let div = (arg1, arg2) => {
 }
 ```
 
+#### 9. 去除字符串中的货币符号
+```
+function replaceCurrencySymbol(str) {
+  if (!str) {
+    return;
+  }
+  let reg = /\￥|\$|\,/g;
+  return str.replace(reg, '');
+}
+```
+
 
 
 
