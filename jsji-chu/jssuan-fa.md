@@ -85,7 +85,7 @@ dyadicArray(data, num) {
 #### 4. 将数字修饰成带货币符号的货币字符串
 
 ```
-midifyCurrency(number, symbol = '￥', places = 2, thousand = ',', decimal = '.') {
+function midifyCurrency(number, symbol = '￥', places = 2, thousand = ',', decimal = '.') {
   if (number === '-') return '-'
   number = number || 0;
   places = !isNaN(places = Math.abs(places)) ? places : 2;
