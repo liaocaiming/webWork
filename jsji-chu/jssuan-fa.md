@@ -377,7 +377,7 @@ export let div = (arg1, arg2) => {
 }
 ```
 
-#### 9. 去除字符串中的货币符号
+#### 10. 去除字符串中的货币符号
 ```
 function replaceCurrencySymbol(str) {
   if (!str) {
@@ -388,7 +388,7 @@ function replaceCurrencySymbol(str) {
 }
 ```
 
-#### 10.将数字修饰成货币字符串
+#### 11.将数字修饰成货币字符串
 ```
 function midifyCurrencyNoSymbol(number, symbol = '￥', places = 2, thousand = ',', decimal = '.') {
   number = number || 0;
