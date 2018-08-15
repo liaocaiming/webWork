@@ -11,4 +11,4 @@
 package.json必填: name, version, repository, main, author
 ```
 
-四. 更新包: 修改 package.json 的 version
+四. 更新包: 修改 package.json 的 version 然后在:  npm publish
