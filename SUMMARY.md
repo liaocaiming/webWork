@@ -36,4 +36,5 @@
 * [webpack](webpack.md)
   * [webpack常用插件](webpack/webpackchang-yong-cha-jian.md)
   * webpack 常用loader
+* [npm发包](npmfa-bao.md)
 
