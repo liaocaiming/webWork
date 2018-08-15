@@ -3,4 +3,5 @@
    ```
    npm login // 登录账号, 密码, 邮箱
    ```
-
+   ![](/assets/npmlogin.png)
+登录成功后出现: Logged in as liaocaiming on https://registry.npmjs.org/
