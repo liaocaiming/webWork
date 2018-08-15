@@ -35,6 +35,6 @@
   * 列表和分页
 * [webpack](webpack.md)
   * [webpack常用插件](webpack/webpackchang-yong-cha-jian.md)
-  * webpack 常用loader
+  * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
 * [npm发包](npmfa-bao.md)
 
