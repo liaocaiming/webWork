@@ -7,3 +7,8 @@
 登录成功后出现: Logged in as liaocaiming on https://registry.npmjs.org/
 
 三. 发布: npm publish
+```
+package.json必填: name, version, repository, main, author
+```
+
+四. 更新包: 修改 package.json 的 version
