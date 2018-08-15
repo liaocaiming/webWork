@@ -5,3 +5,5 @@
    ```
    ![](/assets/npmlogin.png)
 登录成功后出现: Logged in as liaocaiming on https://registry.npmjs.org/
+
+三. 发布: npm publish
