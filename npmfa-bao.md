@@ -14,4 +14,7 @@ package.json必填: name, version, repository, main, author
 四. 更新包: 修改 package.json 的 version 然后在:  npm publish
 
 ### 注意事项:
+1. 登录成功后一定要出现 on **https://registry.npmjs.org/**
+2. npm adduser 创建的账号可能发包不成功, 建议网上直接申请账号
+
 
