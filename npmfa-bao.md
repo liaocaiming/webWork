@@ -4,7 +4,7 @@
    npm login // 登录账号, 密码, 邮箱
    ```
    ![](/assets/npmlogin.png)
-登录成功后出现: Logged in as liaocaiming on https://registry.npmjs.org/
+登录成功后出现: Logged in as ‘名称’ on https://registry.npmjs.org/
 
 三. 发布: npm publish
 ```
