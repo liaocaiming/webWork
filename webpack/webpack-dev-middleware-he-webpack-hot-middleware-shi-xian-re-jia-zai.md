@@ -65,12 +65,6 @@ const express = require('express');
 
 const app = express();
 
-// const devMiddleware = require('webpack-dev-middleware')
-
-// const hotMiddleware = require('webpack-hot-middleware');
-
-// const instance = devMiddleware(compiler);
-// app.use(express.static(`${__dirname}/dist`))
 const devMiddleware = require('webpack-dev-middleware')(compiler, {
   stats: {
     colors: true,
@@ -79,14 +73,6 @@ const devMiddleware = require('webpack-dev-middleware')(compiler, {
 })
 
 const hotMiddleware = require('webpack-hot-middleware')(compiler)
-// force page reload when html-webpack-plugin template changes
-// compiler.plugin('compilation', function (compilation) {
-//   compilation.plugin('html-webpack-plugin-after-emit', function (data, cb) {
-//     console.log('html-webpack-plugin-after-emit')
-//     hotMiddleware.publish({ action: 'reload' })
-//     cb()
-//   })
-// })
 
 app.use(devMiddleware);
 
