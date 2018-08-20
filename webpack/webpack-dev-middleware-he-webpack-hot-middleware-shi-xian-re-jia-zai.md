@@ -25,7 +25,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
-        // use: ExtractTextPlugin.extract({ 
+        // use: ExtractTextPlugin.extract({ // 使用这里时, css不能hotReload
           fallback: "style-loader",
           use: "css-loader",
           allChunks:true
