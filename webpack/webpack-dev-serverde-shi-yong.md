@@ -78,7 +78,7 @@ const opn = require('opn');
 
 const WebpackDevServer = require('webpack-dev-server');
 
-const devServerOptions = require('./webpack.devServer');
+const devServerOptions = require('./devServer');
 
 WebpackDevServer.addDevServerEntrypoints(config, devServerOptions)
 
