@@ -33,21 +33,13 @@ module.exports = {
       }
     ]
   },
-  // devServer: {
-  //   port: 9000,
-  //   contentBase: path.join(__dirname, "dist"),
-  //   compress: true,
-  //   open: true
-  // },
   plugins:[
     new htmlWebpackPlugin({
       filename: 'index.html',
       template: './tpl/index.html',
       inject: true
     }),
-    // new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.HotModuleReplacementPlugin(), 
     new ExtractTextPlugin({
       filename: (getPath) => {
         return getPath('css/[name].css').replace('css/js', 'css');
