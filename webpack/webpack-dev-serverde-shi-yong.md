@@ -63,3 +63,31 @@ module.exports = {
 }
 
 ```
+
+### 三. webpack.dev.js
+```
+const Webpack = require('webpack');
+
+const config = require('./webpack.config')
+
+const compiler = Webpack(config);
+
+const path = require('path');
+
+const opn = require('opn');
+
+const WebpackDevServer = require('webpack-dev-server');
+
+const devServerOptions = require('./webpack.devServer');
+
+WebpackDevServer.addDevServerEntrypoints(config, devServerOptions)
+
+const server = new WebpackDevServer(compiler, devServerOptions);
+
+server.listen(8080, 'localhost', () => {
+   console.log('Starting server on http://localhost:8080');
+   opn('http://localhost:8080')
+});
+
+
+```
