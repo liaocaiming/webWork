@@ -39,7 +39,7 @@ module.exports = {
       template: './tpl/index.html',
       inject: true
     }),
-    new webpack.HotModuleReplacementPlugin(), 
+    new webpack.HotModuleReplacementPlugin(), // 必须的
     new ExtractTextPlugin({
       filename: (getPath) => {
         return getPath('css/[name].css').replace('css/js', 'css');
