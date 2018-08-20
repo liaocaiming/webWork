@@ -8,7 +8,6 @@ const webpack = require('webpack');
 // const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  // entry: './src/index.js',
   entry: {
     index: ['webpack-hot-middleware/client?reload=true', './src/index.js'] // 需要reload的js文件
   },
