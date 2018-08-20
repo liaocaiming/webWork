@@ -10,7 +10,7 @@ const webpack = require('webpack');
 module.exports = {
   // entry: './src/index.js',
   entry: {
-    index: ['webpack-hot-middleware/client?reload=true', './src/index.js']
+    index: ['webpack-hot-middleware/client?reload=true', './src/index.js'] // 需要reload的js文件
   },
    
   mode: 'development',
