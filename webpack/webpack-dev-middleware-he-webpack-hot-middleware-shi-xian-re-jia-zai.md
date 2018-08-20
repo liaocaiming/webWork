@@ -80,6 +80,6 @@ app.use(hotMiddleware)
 
 app.listen(9000, 'localhost', () => {
   console.log('Starting server on http://localhost:8080');
-   opn('http://localhost:9000')
+   opn('http://localhost:9000') // 打开浏览器
 })
 ```
