@@ -10,9 +10,9 @@ const webpack = require('webpack');
 module.exports = {
   // entry: './src/index.js',
   entry: {
-    index: ['webpack-hot-middleware/client?path=/__webpack_hmr&timeout=10000&reload=true', './src/index.js']
+    index: ['webpack-hot-middleware/client?reload=true', './src/index.js']
   },
-  
+   
   mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dist'),
