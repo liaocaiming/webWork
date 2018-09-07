@@ -27,4 +27,9 @@ git stash list // 查看暂存的点;
 git stash drop // 删除最新点;
 git stash drop stash@{id} // 删除对应的莫个暂存点;
 git stash apply stash@{id} // 取出对应的暂存点, 不会删除暂存
+
+
+// 创建网上能看见的分支
+git checkout -b gh-pages
+git push origin gh-pages
 ```
