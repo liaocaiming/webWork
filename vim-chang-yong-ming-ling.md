@@ -1,5 +1,7 @@
-### 启动viw;
+### 启动vim;
 
  ```
   viw filename
  ```
+ 
+ 
