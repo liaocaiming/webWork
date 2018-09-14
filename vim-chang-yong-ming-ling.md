@@ -146,3 +146,13 @@ ZZ 保存并退出。
 
 :only  // 关闭所有窗口，只保留当前窗口
  ```
+ 
+ ### 帮助命令
+ ```
+ :help or F1 显示整个帮助 
+:help xxx 显示xxx的帮助，比如 :help i, :help CTRL-[（即Ctrl+[的帮助）。 
+:help ‘number’ Vim选项的帮助用单引号括起 
+:help 特殊键的帮助用<>扩起 
+:help -t Vim启动参数的帮助用- 
+：help i_ 插入模式下Esc的帮助，某个模式下的帮助用模式_主题的模式
+ ```
