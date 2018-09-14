@@ -3,7 +3,8 @@
  ```
   vim filename // 一个文件
   vim file1 file2 file3  // 打开多个文件
-  :open file // vim窗口打开一个新文件
+  :open filename // vim窗口打开一个新文件
+  :split filename // 新窗口打开文件
  ```
  
  
