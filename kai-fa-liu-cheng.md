@@ -9,5 +9,3 @@ cond=>condition: 是否已经购买并登录了马克飞象?
 st->op1->cond
 cond(yes)->e
 cond(no)->op2->e
-
-```
