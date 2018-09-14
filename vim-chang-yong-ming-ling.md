@@ -49,5 +49,8 @@ O 在当前行之前插入一行
  
  ```
 /text　　查找text，按n健查找下一个，按N健查找前一个。 
-?text　　查找text，反向查找，按n健查找下一个，按N健查找前一个。
+?text　　查找text，反向查找，按n健查找下一个，按N健查找前一个
+
+:set ignorecase　　忽略大小写的查找 
+:set noignorecase　　不忽略大小写的查找
  ```
