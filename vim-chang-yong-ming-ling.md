@@ -6,6 +6,7 @@
   :open filename // vim窗口打开一个新文件
   :split filename // 新窗口打开文件
   :bn // 切换到下一个文件
+  :bp // 切换到上一个文件
  ```
  
  
