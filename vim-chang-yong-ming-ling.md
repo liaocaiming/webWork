@@ -53,4 +53,10 @@ O 在当前行之前插入一行
 
 :set ignorecase　　忽略大小写的查找 
 :set noignorecase　　不忽略大小写的查找
+
+:set hlsearch　　高亮搜索结果，所有结果都高亮显示，而不是只显示一个匹配。 
+:set nohlsearch　　关闭高亮搜索显示 
+:nohlsearch　　关闭当前的高亮显示，如果再次搜索或者按下n或N键，则会再次高亮。 
+:set incsearch　　逐步搜索模式，对当前键入的字符进行搜索而不必等待键入完成。 
+:set wrapscan　　重新搜索，在搜索到文件头或尾时，返回继续搜索，默认开启。
  ```
