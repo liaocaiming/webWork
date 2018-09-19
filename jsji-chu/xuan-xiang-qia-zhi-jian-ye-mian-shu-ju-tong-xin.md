@@ -36,7 +36,6 @@ class Storage {
     
     if(event.key === "getSession"){
     // 上个页面监听新选项卡localStorage.setItem事件
-
       localStorage.setItem("storeSessionData", sessionStorage.getItem(this.typeName) || '');
       localStorage.removeItem("storeSessionData");
     }
