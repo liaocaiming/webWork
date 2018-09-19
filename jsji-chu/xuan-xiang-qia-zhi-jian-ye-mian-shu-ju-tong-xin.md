@@ -17,7 +17,7 @@ class Storage {
   }
 
   public trigger (typeName:string) {
-    if(!sessionStorage.getItem(typeName)){
+    if(!sessionStorage.getItem(typeName)){ // 新选项卡如果没有sessionStorage, 触发上个页面localStorage.setItem
       localStorage.setItem("getSession", String(Date.now()));
     }
     return
