@@ -32,6 +32,8 @@ class Storage {
     if (!event.newValue) {
       return ;
     }
+    
+    // 上个页面监听新选项卡localStorage.setItem
     if(event.key === "getSession"){
       localStorage.setItem("storeSessionData", sessionStorage.getItem(this.typeName) || '');
       localStorage.removeItem("storeSessionData");
