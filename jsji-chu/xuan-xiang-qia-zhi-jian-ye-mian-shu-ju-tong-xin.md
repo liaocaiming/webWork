@@ -45,6 +45,7 @@ class Storage {
       localStorage.removeItem("getSession");
     }
     if(event.key === "updateSession"){
+      // 页面数据更新同步到其他页面
       sessionStorage.setItem(this.typeName, event.newValue);
       localStorage.removeItem("updateSession");
     }
