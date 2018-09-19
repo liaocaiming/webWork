@@ -40,6 +40,7 @@ class Storage {
       localStorage.removeItem("storeSessionData");
     }
     if(event.key === "storeSessionData"){
+    // 新选项卡获取上个页面传过来的数据
       sessionStorage.setItem(this.typeName, event.newValue);
       localStorage.removeItem("getSession");
     }
