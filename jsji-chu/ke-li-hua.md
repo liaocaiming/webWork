@@ -103,3 +103,15 @@ alert(obj + '1');
 //调用了valueOf 
 //'1001'
 ```
+
+对于函数的valueOf来说：
+```
+function test () {
+    var a = 1; 
+    console.log(a);
+}
+
+test; 
+//重新打印了一遍test函数体，其实是自行调用调用了test.valueOf()
+//如果valueOf返回的不是原始类型，那么就会尝试去找toString方法。
+```
