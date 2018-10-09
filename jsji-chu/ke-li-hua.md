@@ -115,3 +115,15 @@ test;
 //重新打印了一遍test函数体，其实是自行调用调用了test.valueOf()
 //如果valueOf返回的不是原始类型，那么就会尝试去找toString方法。
 ```
+
+所以add(1)(2)
+
+首先进入add
+
+然后进入fn
+
+然后进入add
+
+调用valueOf
+
+3
