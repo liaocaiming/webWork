@@ -81,5 +81,7 @@ var str = '123' + obj;
 console.log(str); //123[object Object]
 ```
 为什么会这样呢？上面的例子实际上是
+```
 var obj = {name: 'Coco'};
 var str = '123' + obj.toString();
+```
