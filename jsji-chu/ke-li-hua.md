@@ -20,4 +20,20 @@ second(4); //6
 
 但是这里只能接受两个参数，如果能接受很多个参数怎么办呢？
 
+```
+function add () {
+    var args = [].slice.call(arguments);
+
+    var fn = function () {
+        var arg_fn = [].slice.call(arguments);
+        return add.apply(null, args.concat(arg_fn));
+    }
+
+    fn.valueOf = function() {
+        return args.reduce((a, b) => a + b);
+    }
+    return fn;
+}
+```
+
 
