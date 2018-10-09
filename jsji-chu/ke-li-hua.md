@@ -37,7 +37,7 @@ function add () {
 }
 ```
 
-我第一次看这个代码的时候我也是纳闷，what the fuck？？valueOf是什么鬼？它运行了吗？看了原博主的我才明白了原来valueOf和toString在某些时候是会自己调用的，还牵扯到了类型转换，啊啊啊啊~。
+我第一次看这个代码的时候我也是纳闷，what the fuck？？valueOf是什么鬼？它运行了吗？原来valueOf和toString在某些时候是会自己调用的，还牵扯到了类型转换，啊啊啊啊~。
 
 来看看这个类型转换的题
 
