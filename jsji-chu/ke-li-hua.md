@@ -85,3 +85,5 @@ console.log(str); //123[object Object]
 var obj = {name: 'Coco'};
 var str = '123' + obj.toString();
 ```
+当然我们可以改写toString和valueOf方法
+如果只改写 valueOf() 或是 toString()其中一个，会优先调用被改写了的方法，而如果两个同时改写，则会像 Number 类型转换规则一样，优先查询 valueOf() 方法，在 valueOf() 方法返回的是非原始类型的情况下再查询 toString() 方法。
