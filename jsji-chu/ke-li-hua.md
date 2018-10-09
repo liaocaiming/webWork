@@ -16,3 +16,8 @@ sumCurrying(1)(2); //3
 first(3); //4
 second(4); //6
 ```
+定义一个sumCurrying函数，接受一个参数并返回一个新的函数。调用sumCurrying函数之后，返回的函数就通过闭包的方式记住了sumCurrying的第一个参数。
+
+
+
+
