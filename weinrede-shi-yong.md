@@ -30,3 +30,4 @@ http://www.liaocaiming.site:8081/client/#anonymous
 用手机设备打开待调试的网页，这时候你可以在 debug client界面上清晰的看到 Targets 列表（调试目标列表）
 ![](/assets/weinre2.png)
 
+https://blog.csdn.net/hzaini89/article/details/51745832
