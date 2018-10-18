@@ -8,3 +8,4 @@
 
 ### 设置信任证书:
 设置 => 通用 => 关于本机 => 证书信任设置
+![](/assets/zhengshushezhi.jpeg)
