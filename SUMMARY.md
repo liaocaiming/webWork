@@ -3,6 +3,7 @@
 * [介绍](README.md)
 * [开发流程](kai-fa-liu-cheng.md)
 * [vim 常用命令](vim-chang-yong-ming-ling.md)
+* [vscode](vscode.md)
 * [charles的使用](charlesde-shi-yong.md)
   * [charles的Registered](charlesde-shi-yong/charlesde-registered.md)
   * [https的证书安装](charlesde-shi-yong/httpsde-zheng-shu-an-zhuang.md)
@@ -43,5 +44,5 @@
   * [webpack-dev-middleware 和webpack-hot-middleware 实现热加载](webpack/webpack-dev-middleware-he-webpack-hot-middleware-shi-xian-re-jia-zai.md)
   * [webpack-dev-server的使用](webpack/webpack-dev-serverde-shi-yong.md)
 * [vim 常用命令](vim-chang-yong-ming-ling.md)
-* [vue](vue.md)
+* vscode
 
