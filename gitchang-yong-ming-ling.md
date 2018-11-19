@@ -18,6 +18,8 @@ git remte -v // 查看仓库源
 git tag -a [tag名称]  -m '解释说明';
 git tag 查看本地tag;
 git push upstream --tags // 本地tag推送到远程;
+git tag -d [tag名称] // 删除本地tag;
+git push origin :refs/tags/[名称]　　　　//本地tag删除了，再执行该句，删除线上tag
 
 // 暂存
 git stash // 暂存;
