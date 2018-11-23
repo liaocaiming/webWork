@@ -2,4 +2,5 @@
 ```
 const argv = require('yargs').argv
 const appName = argv.name || 'boms'
+
 ```
