@@ -38,6 +38,7 @@
   * [城市三级联动组件](reactchang-yong-zu-jian/cheng-shi-san-ji-lian-dong-zu-jian.md)
   * [列表和分页](reactchang-yong-zu-jian/lie-biao-he-fen-ye.md)
   * [组合搜索](reactchang-yong-zu-jian/zu-he-sou-suo.md)
+  * [详情显示](reactchang-yong-zu-jian/xiang-qing-xian-shi.md)
 * [webpack](webpack.md)
   * [webpack常用插件](webpack/webpackchang-yong-cha-jian.md)
   * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
