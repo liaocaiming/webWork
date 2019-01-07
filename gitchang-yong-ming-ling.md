@@ -7,7 +7,7 @@ git pull origin <branch name> // 将远程分支代码更新到本地;
 git fetch // 将远程代码更新到本地, 但是不做merge操作;
 git push // 将本地仓库代码推送到远程仓库;
 git checkout master // 切换到本地分支;
-git checktout -b [本地分支]  upstream/[远程分支];
+git checktout -b [本地分支]  upstream/[远程分支]; // 创建分支
 git remote add origin  url(远程仓库路径);
 git push -u origin master // 本地代码推送带远程仓库
 
