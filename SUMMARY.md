@@ -40,11 +40,7 @@
   * [组合搜索](reactchang-yong-zu-jian/zu-he-sou-suo.md)
   * [详情显示](reactchang-yong-zu-jian/xiang-qing-xian-shi.md)
   * [树形选择](reactchang-yong-zu-jian/shu-xing-xuan-ze.md)
-* [webpack](webpack.md)
-  * [webpack常用插件](webpack/webpackchang-yong-cha-jian.md)
-  * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
-  * [webpack-dev-middleware 和webpack-hot-middleware 实现热加载](webpack/webpack-dev-middleware-he-webpack-hot-middleware-shi-xian-re-jia-zai.md)
-  * [webpack-dev-server的使用](webpack/webpack-dev-serverde-shi-yong.md)
-* [vim 常用命令](vim-chang-yong-ming-ling.md)
 * [vue](vue.md)
+* [java](java.md)
+  * [Nubmer & Math](java/nubmer-and-math.md)
 
