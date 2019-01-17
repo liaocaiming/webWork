@@ -43,6 +43,4 @@
   * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
   * [webpack-dev-middleware 和webpack-hot-middleware 实现热加载](webpack/webpack-dev-middleware-he-webpack-hot-middleware-shi-xian-re-jia-zai.md)
   * [webpack-dev-server的使用](webpack/webpack-dev-serverde-shi-yong.md)
-* [java](java.md)
-  * [问题](java/.md)
 
