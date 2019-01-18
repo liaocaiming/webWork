@@ -1,5 +1,5 @@
 ### 一. 列表数据的渲染
-```
+```js
 const shopArr = [
   {shopName: '大保健', amount: 110},
   {shopName: '大保健', amount: 110},
