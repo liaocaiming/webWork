@@ -60,7 +60,7 @@ dyadicArray(data, num) {
 ```
 
 #### 3. 计算选中的最里层数据的个数, 用来做 '至少选择一项'  做判断;
-```
+```js
  calCulSelectAllCheckboxNumber(arr) {
     let num = 0;
     if (!arr) {
