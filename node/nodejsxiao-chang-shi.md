@@ -1,6 +1,6 @@
 #### 一. REPL(read eval print loop) 输入—求值—输出循环;
 #### 二. supersivor(插件): 不用重启服务直接更新代码;
-        ```
+        ```js
            安装: npm install -g supervisor
            使用: supervisor app.js
         ```
