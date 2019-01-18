@@ -32,7 +32,7 @@ export interface IFormItem {
   label?: string; // label title 传一个就行, 这个是为了兼容, 用title;
   title?: string;
   initialValue?: any;
-  list?: IList[];
+  list?: IList[]; // selec才会用到
   render?: (formItem: IFormItem) => any;
   eleAttr?: { placeholder?: any; disabled?: boolean; style?: any; [random: string]: any }; // 元素的属性
 }
