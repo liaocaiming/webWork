@@ -105,7 +105,7 @@ alert(obj + '1');
 ```
 
 对于函数的valueOf来说：
-```
+```js
 function test () {
     var a = 1; 
     console.log(a);
