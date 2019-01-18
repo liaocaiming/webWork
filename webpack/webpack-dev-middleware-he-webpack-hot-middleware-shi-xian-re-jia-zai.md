@@ -1,6 +1,6 @@
 #### 一.入口文件: webpack.config.js
 
-```
+```js
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
 const cleanWebpackPlugin = require('clean-webpack-plugin');
