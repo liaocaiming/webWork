@@ -24,6 +24,7 @@
   * [设置rem](jsji-chu/she-zhi-rem.md)
   * [选项卡之间页面数据通信](jsji-chu/xuan-xiang-qia-zhi-jian-ye-mian-shu-ju-tong-xin.md)
   * [柯里化](jsji-chu/ke-li-hua.md)
+  * [移动端解决fixed和input弹出虚拟键盘时样式错位](jsji-chu/yi-dong-duan-jie-jue-fixed-he-input-dan-chu-xu-ni-jian-pan-shi-yang-shi-cuo-wei.md)
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
   * [express搭建服务](node/expressda-jian-fu-wu.md)
