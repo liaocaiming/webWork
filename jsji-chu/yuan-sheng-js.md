@@ -2,7 +2,7 @@
     
 ### 1.addClass:为指定的dom元素添加样式 removeClass:删除指定dom元素的样式 toggleClass:如果存在(不存在)，就删除(添加)一个样式 hasClass:判断样式是否存在
 
-```
+```js
 style type="text/css">  
     div.testClass{  
         background-color:gray;  
