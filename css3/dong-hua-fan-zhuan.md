@@ -1,6 +1,6 @@
 ### 1. 动画翻转:
 
-```
+```css
 <style>
   div {
     pespective: 400px;
