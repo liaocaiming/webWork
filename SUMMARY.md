@@ -39,6 +39,7 @@
 * [react常用组件](reactchang-yong-zu-jian.md)
   * [城市三级联动组件](reactchang-yong-zu-jian/cheng-shi-san-ji-lian-dong-zu-jian.md)
   * [列表和分页](reactchang-yong-zu-jian/lie-biao-he-fen-ye.md)
+  * [FormItem](reactchang-yong-zu-jian/formitem.md)
 * [webpack](webpack.md)
   * [webpack常用插件](webpack/webpackchang-yong-cha-jian.md)
   * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
