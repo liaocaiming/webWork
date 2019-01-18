@@ -1,5 +1,5 @@
 # 一. js回到顶部的方法
-```
+```js
 div id='box1' style="height: 300px; background: red; overflow-y: auto">
 	<div id='odiv' style="height: 800px; width: 200px;background: blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus explicabo id sequi, eum, mollitia deserunt voluptatibus, placeat ipsam et repellendus aut unde magni sed necessitatibus voluptatum ex dicta maiores asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aut, veritatis, repellendus dolorem ratione perspiciatis? Eius ipsa aliquam voluptatum voluptates magnam, nulla iure mollitia dolorum, aut ut earum totam perferendis!</div>
 </div>
