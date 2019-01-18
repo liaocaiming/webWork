@@ -50,7 +50,7 @@ app.listen(5000, function () {
 
 ```
 ### 另外一个文件
-```
+```js
 function getUserInfo(app) {
   // 获取用户信息
   app.get('/wxapp/user/wxUserinfo', (req, res) => {
