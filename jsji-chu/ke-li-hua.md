@@ -2,7 +2,7 @@
 
 #### 什么是柯里化（Currying）
 又称部分求值（Partial Evaluation），简单来说就是只传递给函数一部分参数来调用它，让它返回一个函数去处理剩下的参数。
-```
+```js
 var sumCurrying = function(a) {
     return function(b) {
         return a + b;
