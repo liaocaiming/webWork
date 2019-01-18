@@ -164,7 +164,7 @@ const fetch = (method, url, params) => {
 ```
 
 #### 6.微信小程序登入逻辑的封装
-```JS
+```js
 / 对login的二次分装
     ready() {
         let that = this
