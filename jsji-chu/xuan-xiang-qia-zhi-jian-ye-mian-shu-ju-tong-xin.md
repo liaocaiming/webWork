@@ -1,4 +1,4 @@
-```
+```js
 interface Iprops {
   typeName: string
 }
