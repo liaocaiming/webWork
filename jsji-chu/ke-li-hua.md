@@ -21,7 +21,7 @@ second(4); //6
 但是这里只能接受两个参数，如果能接受很多个参数怎么办呢？
 
 ### 柯里化的运用
-```
+```js
 function add () {
     var args = [].slice.call(arguments);
 
