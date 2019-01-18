@@ -16,7 +16,7 @@
 
 #### 四. util: node模块的一个插件
    1. 方法 util.inherits(子类, 父类), 只能继承原型上的, 构造函数内的不会继承;
-      ```
+      ```js
        var util = require('util');
 
         function A (name) {
