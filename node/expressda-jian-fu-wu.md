@@ -1,5 +1,5 @@
 ### nodejs搭建服务器
-```
+```js
 var express = require('express');
 var app = express();
 var fs = require('fs');
