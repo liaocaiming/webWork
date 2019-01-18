@@ -253,7 +253,7 @@ const fetch = (method, url, params) => {
 ```
 
 #### 7. 处理浏览器计算精度的方法(加, 减, 乘, 除);
-```
+```js
 export let add = (arg1, arg2) => {
   let r1
   let r2
