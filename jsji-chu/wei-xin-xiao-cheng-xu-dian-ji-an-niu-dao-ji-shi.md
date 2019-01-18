@@ -1,4 +1,4 @@
-```
+```js
  if (this.downNum < 60 || this.isClick) {
       return;
     }
