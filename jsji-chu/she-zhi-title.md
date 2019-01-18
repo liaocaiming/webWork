@@ -1,4 +1,4 @@
-```
+```js
 let setTitle = title => {
   document.title = title
   let mobile = navigator.userAgent.toLowerCase()
