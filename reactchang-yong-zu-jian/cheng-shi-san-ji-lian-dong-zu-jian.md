@@ -1,4 +1,4 @@
-```
+```js
 import * as React from 'react';
 
 import { Cascader } from 'antd';
