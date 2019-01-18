@@ -75,7 +75,7 @@ function add () {
 
 好，回到valueOf和toString被自动调用的问题上。
 
-```
+```js
 var obj = {name: 'Coco'};
 var str = '123' + obj; 
 console.log(str); //123[object Object]
