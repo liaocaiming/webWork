@@ -1,6 +1,6 @@
 #### 1.数字动态增加
 
-```
+```js
 dynamicNumber() {
     let { duration = 2, goalNum, currency } = this.props;
     if (!goalNum) {
