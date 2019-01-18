@@ -1,5 +1,5 @@
 ### 一. webpack.config.js 基本配置
-```
+```js
 const uglify = require('uglifyjs-webpack-plugin');
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
