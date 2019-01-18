@@ -50,7 +50,7 @@ module.exports = {
 ```
 
 ### 二.devServer.js
-```
+```js
 const path = require('path');
 
 module.exports = {
@@ -65,7 +65,7 @@ module.exports = {
 ```
 
 ### 三. webpack.dev.js
-```
+```js
 const Webpack = require('webpack');
 
 const config = require('./webpack.config')
