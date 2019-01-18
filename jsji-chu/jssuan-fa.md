@@ -1,6 +1,6 @@
 #### 1、判断一个字符串中出现次数最多的字符，统计这个次数
 
-```
+```js
  function getMaxString (str) {
     var json = {};
     for(var i =0; i < str.length -1 ; i++) {
@@ -26,7 +26,7 @@
 #### 2、编写一个方法 去掉一个数组的重复元素
 
 ###### 方法一.
-```
+```js
 var arr = [0,2,3,4,4,0,2];
 var obj = {};
 var tmp = [];
