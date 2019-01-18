@@ -363,12 +363,12 @@ export let div = (arg1, arg2) => {
 ```
 
 #### 9. toFixed的坑
-```
+```js
  0.005.toFixed(2) // "0.01"
  1.005.toFixed(2) // "1.00"
 ```
   解决方法
-```
+```js
   let round = (value, number) => {
   let num = number === undefined ? 2: parseInt(number);
   let n = Math.round(mul(parseFloat(value), Math.pow(10, num)));
@@ -378,7 +378,7 @@ export let div = (arg1, arg2) => {
 ```
 
 #### 10. 去除字符串中的货币符号
-```
+```js
 function replaceCurrencySymbol(str) {
   if (!str) {
     return;
@@ -389,7 +389,7 @@ function replaceCurrencySymbol(str) {
 ```
 
 #### 11.将数字修饰成货币字符串
-```
+```js
 function midifyCurrencyNoSymbol(number, symbol = '￥', places = 2, thousand = ',', decimal = '.') {
   number = number || 0;
   places = !isNaN(places = Math.abs(places)) ? places : 2;
