@@ -101,7 +101,7 @@ function midifyCurrency(number, symbol = '￥', places = 2, thousand = ',', deci
 
 #### 5.对微信小程序请求接口数据的封装
 
-```
+```js
 const fetch = (method, url, params) => {
   const app = getApp();
   const data = app.globalData;
@@ -164,7 +164,7 @@ const fetch = (method, url, params) => {
 ```
 
 #### 6.微信小程序登入逻辑的封装
-```
+```JS
 / 对login的二次分装
     ready() {
         let that = this
