@@ -8,4 +8,9 @@
 }
 ```
 
-#### 三.
+#### 三. 在vscode中设置terminal.integrated.shell.window：
+```json
+{
+  "git.path": "C:\Program Files\Git\bin\git.exe"
+}
+```
