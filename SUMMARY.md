@@ -2,7 +2,6 @@
 
 * [介绍](README.md)
 * [开发流程](kai-fa-liu-cheng.md)
-* [vscode](vscode.md)
 * [vim 常用命令](vim-chang-yong-ming-ling.md)
 * [charles的使用](charlesde-shi-yong.md)
   * [charles的Registered](charlesde-shi-yong/charlesde-registered.md)
@@ -23,8 +22,6 @@
   * [设置title](jsji-chu/she-zhi-title.md)
   * [设置rem](jsji-chu/she-zhi-rem.md)
   * [选项卡之间页面数据通信](jsji-chu/xuan-xiang-qia-zhi-jian-ye-mian-shu-ju-tong-xin.md)
-  * [柯里化](jsji-chu/ke-li-hua.md)
-  * [移动端解决fixed和input弹出虚拟键盘时样式错位](jsji-chu/yi-dong-duan-jie-jue-fixed-he-input-dan-chu-xu-ni-jian-pan-shi-yang-shi-cuo-wei.md)
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
   * [express搭建服务](node/expressda-jian-fu-wu.md)
@@ -38,12 +35,12 @@
 * [weinre的使用](weinrede-shi-yong.md)
 * [react常用组件](reactchang-yong-zu-jian.md)
   * [城市三级联动组件](reactchang-yong-zu-jian/cheng-shi-san-ji-lian-dong-zu-jian.md)
-  * [列表和分页](reactchang-yong-zu-jian/lie-biao-he-fen-ye.md)
-  * [FormItem](reactchang-yong-zu-jian/formitem.md)
+  * 列表和分页
 * [webpack](webpack.md)
   * [webpack常用插件](webpack/webpackchang-yong-cha-jian.md)
   * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
   * [webpack-dev-middleware 和webpack-hot-middleware 实现热加载](webpack/webpack-dev-middleware-he-webpack-hot-middleware-shi-xian-re-jia-zai.md)
   * [webpack-dev-server的使用](webpack/webpack-dev-serverde-shi-yong.md)
-* [java](java.md)
+* [vim 常用命令](vim-chang-yong-ming-ling.md)
+* [vscode 配置git](vscode-pei-zhi-git.md)
 
