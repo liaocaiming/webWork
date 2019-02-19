@@ -73,5 +73,38 @@ db.set('user.name', 'typicode')
 }
 ```
 
-#### 5. detect-port: 检测端口是否被占用
+#### 5. detect-port: 检测端口是否被占用;
+
+```js
+const detect = require('detect-port');
+ 
+/**
+ * callback usage
+ */
+ 
+detect(port, (err, _port) => {
+  if (err) {
+    console.log(err);
+  }
+ 
+  if (port == _port) {
+    console.log(`port: ${port} was not occupied`);
+  } else {
+    console.log(`port: ${port} was occupied, try port: ${_port}`);
+  }
+});
+
+detect(port)
+  .then(_port => {
+    if (port == _port) {
+      console.log(`port: ${port} was not occupied`);
+    } else {
+      console.log(`port: ${port} was occupied, try port: ${_port}`);
+    }
+  })
+  .catch(err => {
+    console.log(err);
+  });
+ 
+```
 
