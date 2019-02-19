@@ -20,7 +20,7 @@ log.error('oh no!');
 ```
 
 #### 4. opn: 打开浏览器;
-```
+```js
 const opn = require('opn');
  
 // Opens the image in the default image viewer
