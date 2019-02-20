@@ -108,3 +108,7 @@ detect(port)
  
 ```
 
+#### 6. cheerio: 是jquery核心功能的一个快速灵活而又简洁的实现，主要是为了用在服务器端需要对DOM进行操作的地方;
+
+文档: https://www.jianshu.com/p/629a81b4e013
+
