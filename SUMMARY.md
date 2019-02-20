@@ -25,6 +25,7 @@
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
   * [express搭建服务](node/expressda-jian-fu-wu.md)
+  * [获取本地ip](node/huo-qu-ben-di-ip.md)
 * [ts](ts.md)
   * [ts避免对象属性检测的方法](ts/tsbi-mian-dui-xiang-shu-xing-jian-ce-de-fang-fa.md)
 * [css3](css3.md)
