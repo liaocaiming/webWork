@@ -14,3 +14,5 @@
   "git.path": "C:\Program Files\Git\bin\bash.exe"
 }
 ```
+
+#### 四. 配置快捷生成dom: "emmet.triggerExpansionOnTab": true

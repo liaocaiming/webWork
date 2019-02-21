@@ -45,5 +45,5 @@
   * [webpack-dev-middleware 和webpack-hot-middleware 实现热加载](webpack/webpack-dev-middleware-he-webpack-hot-middleware-shi-xian-re-jia-zai.md)
   * [webpack-dev-server的使用](webpack/webpack-dev-serverde-shi-yong.md)
 * [vim 常用命令](vim-chang-yong-ming-ling.md)
-* [vscode 配置git](vscode-pei-zhi-git.md)
+* [vscode 配置](vscode-pei-zhi-git.md)
 
