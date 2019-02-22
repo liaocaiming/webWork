@@ -40,10 +40,11 @@
   * [城市三级联动组件](reactchang-yong-zu-jian/cheng-shi-san-ji-lian-dong-zu-jian.md)
   * 列表和分页
 * [webpack](webpack.md)
-  * [webpack常用插件](webpack/webpackchang-yong-cha-jian.md)
+  * [webpack常用库](webpack/webpackchang-yong-cha-jian.md)
   * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
   * [webpack-dev-middleware 和webpack-hot-middleware 实现热加载](webpack/webpack-dev-middleware-he-webpack-hot-middleware-shi-xian-re-jia-zai.md)
   * [webpack-dev-server的使用](webpack/webpack-dev-serverde-shi-yong.md)
+  * [webpack常用的plugin](webpack/webpackchang-yong-de-plugin.md)
 * [vim 常用命令](vim-chang-yong-ming-ling.md)
 * [vscode 配置](vscode-pei-zhi-git.md)
 
