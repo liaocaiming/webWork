@@ -38,4 +38,6 @@ git checkout -b gh-pages
 git push origin gh-pages
 ```
 
-#### Gogs: 搭建git本地服务器,
+#### Gogs: 搭建git本地服务器;
+
+### husky: 配置git hooks
