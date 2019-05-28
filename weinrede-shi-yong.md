@@ -31,3 +31,5 @@ http://www.liaocaiming.site:8081/client/#anonymous
 ![](/assets/weinre2.png)
 
 https://blog.csdn.net/hzaini89/article/details/51745832
+
+#### 类似的工具: spy-debugger
