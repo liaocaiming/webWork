@@ -47,4 +47,6 @@
   * [webpack常用的plugin](webpack/webpackchang-yong-de-plugin.md)
 * [vim 常用命令](vim-chang-yong-ming-ling.md)
 * [vscode 配置](vscode-pei-zhi-git.md)
+* [react-native](react-native.md)
+  * [真机连接](react-native/zhen-ji-lian-jie.md)
 
