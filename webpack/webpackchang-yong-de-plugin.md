@@ -21,8 +21,4 @@
 只针对CSS
 目前缺失功能，HMR。
 
-文档: https://www.jianshu.com/p/91e60af11cc9
-
----
-
 #### 3. 
