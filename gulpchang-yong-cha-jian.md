@@ -27,3 +27,26 @@ log(chalk.blue('Hello', 'World!', 'Foo', 'bar', 'biz', 'baz'));
 // Nest styles
 log(chalk.red('Hello', chalk.underline.bgBlue('world') + '!'));
 ```
+
+#### 4. gulp-tap: 可以在gulp的pipeg管道中处理文件;
+```js
+gulp.src("src/**/*.{coffee,js}")
+    .pipe(tap(function(file, t) {
+        if (path.extname(file.path) === '.coffee') {
+            return t.through(coffee, []);
+        }
+    }))
+    .pipe(gulp.dest('build'));
+```
+#### 5. gulp-zip: 文件夹压缩;
+```js
+const gulp = require('gulp');
+const zip = require('gulp-zip');
+ 
+gulp.task('default', () =>
+    gulp.src('src/*')
+        .pipe(zip('archive.zip'))
+        .pipe(gulp.dest('dist'))
+);
+```
+

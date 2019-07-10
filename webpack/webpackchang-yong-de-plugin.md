@@ -21,4 +21,16 @@
 只针对CSS
 目前缺失功能，HMR。
 
-#### 3. 
+#### 3. copy-webpack-plugin: 拷贝文件到目标文件夹;
+```js
+const CopyPlugin = require('copy-webpack-plugin');
+ 
+module.exports = {
+  plugins: [
+    new CopyPlugin([
+      { from: 'source', to: 'dest' },
+      { from: 'other', to: 'public' },
+    ]),
+  ],
+};
+```
