@@ -115,3 +115,5 @@ detect(port)
 #### 7. is-absolute-url: 判断是否绝对路径;
 
 #### 8. htmlparser2: 一个快速和宽容的HTML/XML/RSS解析器，解析器可以出来流，并且提供了一个回调接口。
+
+#### 9. node-ssh: 文件上传到服务器;
