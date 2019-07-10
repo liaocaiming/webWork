@@ -117,3 +117,7 @@ detect(port)
 #### 8. htmlparser2: 一个快速和宽容的HTML/XML/RSS解析器，解析器可以出来流，并且提供了一个回调接口。
 
 #### 9. node-ssh: 文件上传到服务器;
+
+#### 10. ora: 主要用来实现node.js命令行环境的loading效果，和显示各种状态的图标等;
+
+#### 11. json5: 处理json文件, 是json文件可以写注释等;
