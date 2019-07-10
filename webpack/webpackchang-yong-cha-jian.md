@@ -112,3 +112,4 @@ detect(port)
 
 文档: https://www.jianshu.com/p/629a81b4e013
 
+#### 7. is-absolute-url: 判断是否绝对路径;
