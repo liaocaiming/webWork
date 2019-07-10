@@ -1,6 +1,6 @@
 #### 1.gulp-clean: 删除文件;
 #### 2. fancy-log: 打印日志;
-```
+```js
 var log = require('fancy-log');
  
 log('a message');
@@ -8,10 +8,10 @@ log('a message');
  
 log.error('oh no!');
 // [16:27:02] oh no!
-```js
+```
 
 #### 3. Chalk: 给打印的信息添加颜色;
-```
+```js
 const chalk = require('chalk');
 const log = console.log;
  
@@ -26,4 +26,4 @@ log(chalk.blue('Hello', 'World!', 'Foo', 'bar', 'biz', 'baz'));
  
 // Nest styles
 log(chalk.red('Hello', chalk.underline.bgBlue('world') + '!'));
-```js
+```
