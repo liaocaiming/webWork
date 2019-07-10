@@ -113,3 +113,5 @@ detect(port)
 文档: https://www.jianshu.com/p/629a81b4e013
 
 #### 7. is-absolute-url: 判断是否绝对路径;
+
+#### 8. htmlparser2: 一个快速和宽容的HTML/XML/RSS解析器，解析器可以出来流，并且提供了一个回调接口。
