@@ -34,3 +34,21 @@ module.exports = {
   ],
 };
 ```
+
+#### 4. webpack-bundle-analyzer: 依赖分析;
+```js
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+ 
+module.exports = {
+  plugins: [
+    new BundleAnalyzerPlugin()
+  ]
+}
+```
+#### 5. fork-ts-checker-webpack-plugin: ts校验插件;
+```js
+new ForkTsCheckerWebpackPlugin({
+  tslint: true,
+  vue: true
+})
+```
