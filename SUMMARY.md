@@ -38,7 +38,7 @@
 * [weinre的使用](weinrede-shi-yong.md)
 * [react常用组件](reactchang-yong-zu-jian.md)
   * [城市三级联动组件](reactchang-yong-zu-jian/cheng-shi-san-ji-lian-dong-zu-jian.md)
-  * 列表和分页
+  * [列表和分页](reactchang-yong-zu-jian/lie-biao-he-fen-ye.md)
 * [webpack](webpack.md)
   * [webpack常用库](webpack/webpackchang-yong-cha-jian.md)
   * [webpack 常用loader](webpack/webpack-chang-yong-loader.md)
@@ -49,4 +49,5 @@
 * [vscode 配置](vscode-pei-zhi-git.md)
 * [react-native](react-native.md)
   * [真机连接](react-native/zhen-ji-lian-jie.md)
+* [gulp常用插件](gulpchang-yong-cha-jian.md)
 
