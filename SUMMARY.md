@@ -23,6 +23,7 @@
   * [设置rem](jsji-chu/she-zhi-rem.md)
   * [选项卡之间页面数据通信](jsji-chu/xuan-xiang-qia-zhi-jian-ye-mian-shu-ju-tong-xin.md)
   * [toCamelCase](jsji-chu/tocamelcase.md)
+  * [解决ios input 获取焦点光标错位的问题](jsji-chu/jie-jue-ios-input-huo-qu-jiao-dian-guang-biao-cuo-wei-de-wen-ti.md)
 * [node](node.md)
   * [nodeJs小常识](node/nodejsxiao-chang-shi.md)
   * [express搭建服务](node/expressda-jian-fu-wu.md)
