@@ -30,6 +30,7 @@
   * [获取本地ip](node/huo-qu-ben-di-ip.md)
   * [htmlparser2 ~~~ HTML/XML/RSS解析器](node/htmlparser2-~~~-htmlxmlrssjie-xi-qi.md)
   * [stream ~~ through2 ](node/stream-~~-through2.md)
+  * [异步读取文件](node/yi-bu-du-qu-wen-jian.md)
 * [ts](ts.md)
   * [ts避免对象属性检测的方法](ts/tsbi-mian-dui-xiang-shu-xing-jian-ce-de-fang-fa.md)
 * [css3](css3.md)
