@@ -7,3 +7,4 @@
 |错误日志|https://www.fundebug.com/|
 |mescroll|http://www.mescroll.com/api.html?v=0929|
 |印记中文前端库|https://docschina.org/|
+|Recharts|http://recharts.org/zh-CN/api/AreaChart|
