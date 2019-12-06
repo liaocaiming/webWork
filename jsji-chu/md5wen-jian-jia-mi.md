@@ -1,3 +1,4 @@
+```js
 import SparkMD5 from 'spark-md5';
 
 /***
@@ -38,3 +39,5 @@ export default function getFileMd5(file: any):  Promise<string> {
     loadNext();
   })
 }
+
+```
